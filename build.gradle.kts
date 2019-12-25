@@ -17,7 +17,8 @@ repositories {
 }
 
 dependencies {
-    implementation("com.simgle:simgle-core:+")
+    api("com.simgle:simgle-core:+")
+    implementation("com.simgle:simgle-persistence:+")
     testImplementation("org.springframework.boot:spring-boot-starter-test:2.2.2.RELEASE") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
