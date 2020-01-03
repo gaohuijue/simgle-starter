@@ -1,4 +1,4 @@
-package com.simgle.starter.persistence
+package com.simgle.starter.infrastructure.persistence
 
 import org.hibernate.annotations.GenericGenerator
 import java.io.Serializable
